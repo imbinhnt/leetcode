@@ -12,9 +12,9 @@ My solutions to LeetCode problems, written in Java.
 
 | # | Problem | Topics | Difficulty | Time | Space | Solution |
 |---|---------|--------|:----------:|:----:|:-----:|:--------:|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array, Hash Table | Easy | O(n) | O(n) | [Java](/leetcode/0001-two-sum.java) |
-| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | String, Stack | Easy | O(n) | O(n) | [Java](0020-valid-parentheses.java) |
+| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array, Hash Table | Easy | O(n) | O(n) | [Java](TwoSum.java) |
+| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | String, Stack | Easy | O(n) | O(n) | [Java](ValidParenthese.java) |
 
 ## Conventions
 
-- File name: <4-digit problem number>-<problem-slug>.java
+- File name: <problem_slug>.java

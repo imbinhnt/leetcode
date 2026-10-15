@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class TwoSun {
+public class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
 
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -23,4 +23,3 @@ public class TwoSun {
         System.out.println(Arrays.toString(twoSum(new int[] { 3, 2, 4 }, 6))); // [1, 2]
     }
 }
-
