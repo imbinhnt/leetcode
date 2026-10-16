@@ -1,3 +1,5 @@
+// Leetcode 0001 | Easy | Thu Oct 15 2026
+
 import java.util.Arrays;
 import java.util.HashMap;
 

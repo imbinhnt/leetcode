@@ -1,4 +1,4 @@
-
+// Leetcode 0002 | Medium | Fri Oct 16 2026
 class ListNode {
     int value;
     ListNode next;

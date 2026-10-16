@@ -1,3 +1,5 @@
+// Leetcode 0020 | Easy | Thu Oct 15 2026
+
 import java.util.HashMap;
 import java.util.Stack;
 
