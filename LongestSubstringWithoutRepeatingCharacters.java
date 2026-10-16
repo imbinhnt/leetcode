@@ -1,23 +1,24 @@
-import java.util.HashSet;
+
+// import java.util.HashSet;
+import java.util.HashMap;
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int max = 0;
+        int left = 0;
+        HashMap<Character, Integer> last = new HashMap<>(); // char -> latest index
 
-        for (int i = 0; i < s.length(); i++) {
-            HashSet<Character> seen = new HashSet<>();
-            int count = 0;
+        // sliding window technique
+        for (int right = 0; right < s.length(); right++) {
+            char c = s.charAt(right);
 
-            for (int j = i; j < s.length(); j++) {
-                char c = s.charAt(j);
-                if (seen.contains(c)) {
-                    break;
-                }
-                seen.add(c);
-                count++;
+            // Duplicate inside window: move left past its previous index
+            if (last.containsKey(c) && last.get(c) >= left) {
+                left = last.get(c) + 1;
             }
 
-            max = Math.max(max, count);
+            last.put(c, right);
+            max = Math.max(max, right - left + 1);
         }
 
         return max;
