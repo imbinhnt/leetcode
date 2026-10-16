@@ -6,7 +6,7 @@ My solutions to LeetCode problems, written in Java.
 
 | Easy | Medium | Hard | Total |
 |:----:|:------:|:----:|:-----:|
-| 2 | 0 | 0 | 2 |
+| 2 | 1 | 0 | 3 |
 
 ## Solutions
 
@@ -14,6 +14,7 @@ My solutions to LeetCode problems, written in Java.
 |---|---------|--------|:----------:|:----:|:-----:|:--------:|
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array, Hash Table | Easy | O(n) | O(n) | [Java](TwoSum.java) |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | String, Stack | Easy | O(n) | O(n) | [Java](ValidParentheses.java) |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | String, Hash | Medium | O(n2) | O(1) | [Java](LongestSubstringWithoutRepeatingCharacters.java) |
 
 ## Conventions
 
