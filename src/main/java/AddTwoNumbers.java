@@ -16,7 +16,7 @@ class ListNode {
     }
 }
 
-class Solution {
+class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(0);
         ListNode cur = dummy;
